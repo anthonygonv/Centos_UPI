@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/clases6.css">
+    <title>Registrar Usuario</title>
+</head>
+
+<body align="center">
+    <header> <!-- Se crea un encabezado -->
+
+        <h1>Registrar Usuario</h1>
+
+    </header> <!-- Termina el encabezado -->
+
+    <br>
+
+    <main align="center"> <!-- Sección principal-->
+
+        <form>
+            <p>Nombre:</p>
+            <input type="text" name="nombre" minlength="3" maxlength="20" required>
+            <br>
+            <p>Apellido:</p>
+            <input type="text" name="apellido" required>
+            <br>
+            <p>EMail:</p>
+            <input type="email" name="correo" required>
+            <br>
+            <p>Contraseña:</p>
+            <input type="password" name="contrasena" required>
+            <br>
+            <p>Edad:</p>
+            <input type="number" name="edad" min="18" required>
+            <br>
+            <p>Sexo:</p>
+            <select name="sexo" required>
+                <option value=" " disabled selected>-- Seleccione una opción --</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </main> <!-- Fin sección principal-->
+
+    <br>
+    <br>
+
+    <div align="center">
+        <a href="..\index.html" class="boton">Volver al inicio</a>
+    </div>
+
+</body>
+
+</html>

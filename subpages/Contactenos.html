@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Logo.jpg">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/clases.css" rel="stylesheet">
+    <title>METROKILOS</title>
+</head>
+
+<body>
+
+    <video src="../video/Tela.mp4" autoplay muted loop poster="../img/Poster.PNG"></video><!-- Video -->
+
+    <header> <!-- Se crea un encabezado -->
+
+        <div class="nombreLogo">
+            <h1 class="nombre">METROKILOS</h1>
+            <img src="../img/Logo.jpg" class="logo">
+        </div>
+
+        <div class="formatoMenu" id="sobreponer">
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><span class="separador">|</span></li>
+                    <li><a href="../index.html #quienesSomos">¿Quiénes somos?</a></li>
+                    <li><span class="separador">|</span></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><span class="separador">|</span></li>
+                    <li class="dropdown">
+                        <a href="DondeEstamos.html">¿Dónde estamos?</a>
+                        <ul>
+                            <li><a href="../subpages/DondeEstamos.html #Alajuela">Alajuela</a></li>
+                            <li><a href="../subpages/DondeEstamos.html #Cartago">Cartago</a></li>
+                            <li><a href="../subpages/DondeEstamos.html #Heredia">Heredia</a></li>
+                            <li><a href="../subpages/DondeEstamos.html #Limon">Limón</a></li>
+                            <li><a href="../subpages/DondeEstamos.html #Puntarenas">Puntarenas</a></li>
+                            <li><a href="../subpages/DondeEstamos.html #SanJose">San José</a></li>
+                        </ul>
+                    </li>
+                    <li><span class="separador">|</span></li>
+                    <li><a href="Contactenos.html">Contáctenos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header> <!-- Termina el encabezado -->
+
+    <main> <!-- Sección principal-->
+
+        <section class="container py-5">
+
+            <div id="quienesSomos" class="text-white text-center">
+                <h2>Horario de Atención</h2>
+                <br>
+                <p>Lunes - Viernes: 9:00 am - 6:00 pm</p>
+                <p>Sábado: 9:00 am - 6:00 pm</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="container text-white text-center">
+                <h2 class="text-center">Tu opinión es muy importante para nosotros</h2>
+                <p class="text-center">Contáctanos por correo electrónico o teléfono, con gusto te atenderemos</p>
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nombre:</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono:</label>
+                                <input type="tel" class="form-control" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje:</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="location">Ubicación de preferencia:</label>
+                                <input type="text" class="form-control" id="location">
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="container">
+                <img src="../img/Logo2.jpg" class="img-fluid rounded mx-auto d-block" alt="METROKILOS" width="100"
+                    height="100">
+            </div>
+
+        </section>
+
+    </main> <!-- Fin sección principal-->
+
+    <br>
+
+    <footer class="py-3 colorFooter"> <!--Pie de página -->
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../index.html" class="text-white mb-0"> Copyright / derechos de autor © 2023 Metrokilos</a>
+            <div class="d-flex align-items-center">
+                <a href="https://www.facebook.com/metrokilosoficial"><img src="../img/Facebook.png" alt="Logo 1"
+                        width="30"></a>
+                <a href="https://www.instagram.com/metrokilos/"><img src="../img/Instagram.png" alt="Logo 2"
+                        width="30"></a>
+                <a href="https://wa.me/+50660583687"><img src="../img/Whatsapp.png" alt="Logo 3" width="30"></a>
+            </div>
+        </div>
+    </footer> <!--Fin pie de página -->
+
+    <!-- Java Scripts-->
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
